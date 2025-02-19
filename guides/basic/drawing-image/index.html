@@ -30,6 +30,7 @@
                 <a href="/love-cookbook/">Introduction</a>
             </li><li><a href="/love-cookbook/guides/getting-started/">Getting started</a>
             </li><span class="group-header">Basics</span><li><a href="/love-cookbook/guides/basic/drawing-image/">Drawing an image</a>
+            </li><span class="group-header">Installation</span><li><a href="/love-cookbook/guides/installation/LÖVE/">LÖVE installation</a>
             </li></ul>
       </section>
       <article class="guide">
@@ -64,11 +65,11 @@ function love.draw()
     love.graphics.draw(image, 100, 100)
 end
 </code></pre>
-<iframe id="love-iframe-323" src="/love-cookbook/assets/love/love-js" width="800" height="300"></iframe>
+<iframe id="love-iframe-613" src="/love-cookbook/assets/love/love-js" width="800" height="300"></iframe>
 <script>
-const iframe_323 = document.getElementById('love-iframe-323');
-iframe_323.addEventListener('load', function() {
-iframe_323.contentWindow.postMessage({lua: `love.window.setMode(800, 300) 
+const iframe_613 = document.getElementById('love-iframe-613');
+iframe_613.addEventListener('load', function() {
+iframe_613.contentWindow.postMessage({lua: `love.window.setMode(800, 300) 
 local image
 function love.load()
     image = love.graphics.newImage("assets/whale.png")
@@ -83,11 +84,11 @@ end
 <p>Whale done! ;)</p>
 <h2>Bonus challenge</h2>
 <p>Make the whale move back and forth!</p>
-<iframe id="love-iframe-523" src="/love-cookbook/assets/love/love-js" width="800" height="300"></iframe>
+<iframe id="love-iframe-961" src="/love-cookbook/assets/love/love-js" width="800" height="300"></iframe>
 <script>
-const iframe_523 = document.getElementById('love-iframe-523');
-iframe_523.addEventListener('load', function() {
-iframe_523.contentWindow.postMessage({lua: `love.window.setMode(800, 300) 
+const iframe_961 = document.getElementById('love-iframe-961');
+iframe_961.addEventListener('load', function() {
+iframe_961.contentWindow.postMessage({lua: `love.window.setMode(800, 300) 
 local image
 local x, dir = 0, 1
 function love.load()
